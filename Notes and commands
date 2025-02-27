@@ -21,5 +21,8 @@ ssh-keygen -t rsa -b 4096 -C "cjone4all38@gmail.com" ----> to create your own SS
 git remote set-url heroku git@heroku.com:groqgt_api.git
 
 git push heroku master
+git remote set-url heroku https://github.com/Jordon-py/Groq_Gt_API.git
+
+https://your-app-name.herokuapp.com/
 
 '''
