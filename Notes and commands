@@ -26,7 +26,8 @@ git remote set-url heroku https://github.com/Jordon-py/Groq_Gt_API.git
 https://your-app-name.herokuapp.com/
 
 git add Procfile
-git commit -m "Fix Procfile"
-git push heroku Master
+git commit -m "Fix utf 8 Proc"
+git push origin Master
+
 
 '''
