@@ -16,5 +16,10 @@ git commit -m "Initial commit for Heroku deployment"
 heroku create groqgt-api
 
 
+ssh-keygen -t rsa -b 4096 -C "cjone4all38@gmail.com" ----> to create your own SSH Key so you dont have to login manually
+
+git remote set-url heroku git@heroku.com:groqgt_api.git
+
+git push heroku master
 
 '''
