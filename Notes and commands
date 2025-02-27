@@ -1,0 +1,20 @@
+'''
+
+
+heroku login  ---> Logs me in to Heroku
+
+pip freeze > requirements.txt -----> Create a Requirements.txt with all currently installed dependencies
+
+echo web: python app.py > Procfile ---> This tells Heroku how to run your Flask app.
+
+
+<-----------Initialize Git & Push Code to Heroku----->
+
+git init
+git add .
+git commit -m "Initial commit for Heroku deployment"
+heroku create groqgt-api
+
+
+
+'''
